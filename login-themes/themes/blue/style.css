@@ -1,0 +1,109 @@
+/*------------------------------------------------------------------------------
+								Global Styles
+------------------------------------------------------------------------------*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.floatright{float:right}
+.floatleft{float:left}
+*{padding:0px;margin:0px}
+/*------------------------------------------------------------------------------
+								Spec Styles
+------------------------------------------------------------------------------*/
+html{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPUlEQVQYlWM4fvz4/ytXruDFx48f/88AY+BTdOXKFYhCXIqRxRhwSaBrZMBnHV6FuNxLutVEeYao4CE2wAF6q1leaIHw7wAAAABJRU5ErkJggg==);font:12px Tahoma, Geneva, sans-serif;direction:rtl}
+body.login{margin-top:48px; margin-bottom:0px;margin-left:0px;margin-right:0px;font:12px Tahoma, Geneva, sans-serif;direction:rtl;border-radius:5px}
+.logo{height:100px;background:url(images/logo.png) no-repeat top right}
+a{font: 12px Tahoma, Geneva, sans-serif;
+color: #1C668B;
+text-decoration: none;
+text-shadow: 0px 1px white;
+line-height: 18px;}
+#login {margin:0px auto;width:342px;position:relative}	
+.login form {border: 1px solid rgba(255, 255, 255, 0.4);background:#afc1c5;background-color: rgba(87, 147, 161, 0.3);border-radius:10px;position:relative !important;-moz-box-shadow:inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow:inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+box-shadow:inset 0px 0px 10px rgba(0, 0, 0, 0.3);position:relative;margin-top:40px;padding:10px;width:318px;-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;}
+.login form:hover{background-color: rgba(87, 147, 161, 0.6)}
+.login #nav a{color:#F8F8F8 !important;text-shadow: 0 1px 0 #000000 ;text-decoration:none;}
+.btnholder{color:#fff;text-shadow:0px 1px 2px #333}
+p.username label,p.password label{position:relative}
+p.username span.loginicon{display:block;background:url(images/username.png) no-repeat right top;width:32px;height:32px;top:-5px;right:10px;position:absolute}
+p.password span.passwordicon{display:block;background:url(images/password.png) no-repeat right top;width:32px;height:32px;top:-5px;right:10px;position:absolute}
+input#user_login,input#user_pass{background: #F8F9FD;
+padding: 12px 14px;
+padding-right:46px;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.95);
+-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.95);
+box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.95);
+outline: none;
+border: 1px solid #DDDEE2;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-transition: all ease-in-out 0.2s;-webkit-transition:all ease-in-out 0.6s;-moz-transition:all ease-in-out 0.6s;transition:all ease-in-out 0.6s}
+.forgetmenot{float:right;}
+.submit{float:left;}
+input#user_login:focus,input#user_pass:focus,input#user_login:active,input#user_pass:active{
+	border:1px solid #8EB812
+}
+input.button-primary {
+padding: 6px 4px;
+background: white;
+background: -webkit-gradient(linear, left top, left bottom, from(white), to(#EEEFF3));
+background: -webkit-linear-gradient(white, #EEEFF3);
+background: -moz-linear-gradient(center top, white 0%, #EEEFF3 100%);
+background: -moz-gradient(center top, white 0%, #EEEFF3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#eeeff3);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#eeeff3)";
+border: 1px solid #DDDEE2;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font: 12px Tahoma, Geneva, sans-serif;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 1px 2px 0
+}
+input.button-primary:hover {
+background: white;
+background: -webkit-gradient(linear, left top, left bottom, from(white), to(#EEEFF3));
+background: -webkit-linear-gradient(white, #EEEFF3);
+background: -moz-linear-gradient(center top, white 0%, #EEEFF3 100%);
+background: -moz-gradient(center top, white 0%, #EEEFF3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#eeeff3);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#eeeff3)";
+color: #262F3E;
+
+}
+p#backtoblog {display:none}
+div.lostpassword {}
+a.lostpassword {display: block;
+    margin-top: 15px;
+    text-decoration: none;
+	background:url(images/restore.png) no-repeat right top;padding:5px;line-height:22px;padding-right: 35px;-webkit-transition: all ease-in-out 0.2s;-webkit-transition:all ease-in-out 0.6s;-moz-transition:all ease-in-out 0.6s;transition:all ease-in-out 0.6s}
+	a.lostpassword:hover{background:#afc1c5 url(images/restore.png) no-repeat right top;background:rgba(87, 147, 161, 0.3) url(images/restore.png) no-repeat right top;border-radius:5px;color:#fff;text-shadow:0px 1px 1px #1C668B}
+#login h1 a{display:none}
+#login p{margin:16px 0px}
+div#login_error{position: absolute;bottom: -75px;background:#f17878;background: rgba(242, 120, 120, 0.3);padding: 10px;border-radius: 10px;min-width:322px}
+.clear{clear:both}
+.message {background:#F1E878;background:rgba(242, 233, 120, 0.4);padding: 10px;border-radius: 10px;min-width:322px}
+.ie7 input#user_login,.ie7 input#user_pass{width:81%}
+.ie9 .lostpassword {border-radius:0px 6px 6px 0px}
+.ie7 p.username span.loginicon,.ie7 p.password span.passwordicon{top:5px}

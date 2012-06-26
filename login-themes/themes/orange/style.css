@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px;margin:0px}
+html{background:#e3d001 url(images/bodybackground.jpg) repeat-x top left;font:12px Tahoma, Geneva, sans-serif;direction:rtl}
+body.login{background:#e3d001 url(images/bodybackground.jpg) repeat-x top left}
+a{font: 12px Tahoma, Geneva, sans-serif;
+color: #1C668B;
+text-decoration: none;
+text-shadow: 0px 1px white;
+line-height: 18px;}
+#login {margin:0px auto;width:342px;position:relative}	
+.login form {border: 2px solid #C7C8C7;background: #F1F2F3;border-radius:10px;position:relative !important;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;position:relative;margin-top:40px;padding:10px;padding-bottom:190px;width:318px;}
+.login #nav a{color:#F8F8F8 !important;text-shadow: 0 1px 0 #000000 ;text-decoration:none;}
+input#user_login,input#user_pass{background: #F8F9FD;
+padding: 12px 14px;
+padding-right:45px;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.95);
+-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.95);
+box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.95);
+outline: none;
+border: 1px solid #DDDEE2;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-transition: all ease-in-out 0.2s;-webkit-transition:all ease-in-out 0.6s;-moz-transition:all ease-in-out 0.6s;transition:all ease-in-out 0.6s}
+.forgetmenot{float:right;}
+.submit{float:left;}
+input#user_login:focus,input#user_pass:focus,input#user_login:active,input#user_pass:active{
+	border:1px solid #8EB812
+}
+.thelogin{
+position:absolute;	
+width:566px;
+height:220px;
+bottom:-74px;
+background:url(images/thelogo.png) no-repeat right top;
+left:-115px;
+border:none;
+}
+input.button-primary {
+padding: 6px 4px;
+background: white;
+background: -webkit-gradient(linear, left top, left bottom, from(white), to(#EEEFF3));
+background: -webkit-linear-gradient(white, #EEEFF3);
+background: -moz-linear-gradient(center top, white 0%, #EEEFF3 100%);
+background: -moz-gradient(center top, white 0%, #EEEFF3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#eeeff3);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#eeeff3)";
+border: 1px solid #DDDEE2;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font: 12px Tahoma, Geneva, sans-serif;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 1px 2px 0
+}
+input.button-primary:hover {
+background: white;
+background: -webkit-gradient(linear, left top, left bottom, from(white), to(#EEEFF3));
+background: -webkit-linear-gradient(white, #EEEFF3);
+background: -moz-linear-gradient(center top, white 0%, #EEEFF3 100%);
+background: -moz-gradient(center top, white 0%, #EEEFF3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff,endColorstr=#eeeff3);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#eeeff3)";
+color: #262F3E;
+
+}
+p#backtoblog {display:none}
+div.lostpassword {position:absolute;left:-51px;top:40px;width:50px;height:50px;background:#F1F2F3;border-radius:6px 0 0 6px}
+span.arrow {
+    background: url(images/arrow-to-left.png) no-repeat scroll left top transparent;
+    float: left;
+    height: 19px;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 28px;
+}
+span.rarrow {
+    background: url(images/arrow-to-right.png) no-repeat scroll left top transparent;
+
+}
+a.lostpassword {display: block;
+    margin-top: 15px;
+    padding-right: 5px;
+    text-decoration: none;}
+#login h1 a{display:none}
+
+#login p{margin:16px 0px}
+div#login_error{position: absolute;bottom: -75px;background: white;padding: 10px;border-radius: 10px;min-width:322px}
+.clear{clear:both}
+.message {background:#F1E878;padding: 10px;border-radius: 10px;min-width:322px}
+p.username label,p.password label{position:relative}
+p.username span.loginicon{display:block;background:url(images/username.png) no-repeat right top;width:32px;height:32px;top:-8px;right:10px;position:absolute}
+p.password span.passwordicon{display:block;background:url(images/password.png) no-repeat right top;width:32px;height:32px;top:-8px;right:10px;position:absolute}
+.ie7 input#user_login,.ie7 input#user_pass{width:81%}
+.ie7 .login form {padding-bottom:120px;}
+.ie9 .lostpassword {border-radius:0px 6px 6px 0px}
+.ie7 p.username span.loginicon,.ie7 p.password span.passwordicon{top:6px}

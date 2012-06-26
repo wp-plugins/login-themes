@@ -1,0 +1,42 @@
+/*------------------------------------------------------------------------------
+								Global Styles
+------------------------------------------------------------------------------*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.floatright{float:right}
+.floatleft{float:left}
+/*------------------------------------------------------------------------------
+								Spec Styles
+------------------------------------------------------------------------------*/
+
+.listofitmes li{float:right;width:410px;position:relative;-webkit-transition:All 3s ease;
+-moz-transition:All 3s ease;
+-o-transition:All 3s ease;	}
+.listofitmes li.even{float:left;}
+.listofitmes li:hover:after{background:rgba(0, 0, 0, 0.1);;
+    top:0px;
+    content: "";
+    display: block;
+	
+    height: 150px;;
+    line-height: 30px;
+    position:absolute;
+    text-align: center;
+    width: 100%;
+-moz-box-shadow:inset 0px 0px 15px #000000;
+-webkit-box-shadow:inset 0px 0px 15px #000000;
+box-shadow:inset 0px 0px 15px #000000;
+
+	}
+
